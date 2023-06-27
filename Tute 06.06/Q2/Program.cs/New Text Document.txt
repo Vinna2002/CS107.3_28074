@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+/*Modify the same user defined method to method which accept a parameter value.
+ * That parameter value is the given user given Km value(No return type with parameter).
+ * Display the answer by using the class object.*/
+
+namespace Q2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the Kilometer Value");
+            double km = double.Parse(Console.ReadLine());
+
+            ConvertValues obj= new ConvertValues();
+            obj.kilometerTOmeter(km);
+            Console.ReadKey();
+        }
+    }
+}

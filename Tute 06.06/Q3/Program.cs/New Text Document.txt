@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+/* Modify the same user defined method to method which accept a parameter and return the answer at athe end of the 
+ * method. You should return the calculated meter value at the end of the method.(With return type and 
+ * with parameter).Display the answer by using class object.*/
+
+namespace Q3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the Kilometer Value");
+            double km = double.Parse(Console.ReadLine());
+            ConvertValues obj= new ConvertValues();
+            double m=obj.kilometerTOmeter(km);
+            Console.WriteLine(m.ToString()+"m");
+
+
+            Console.ReadKey();
+
+        }
+    }
+}

@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp3
+{
+    public class ConvertValues
+    {
+        public void kilometerTOmeter()
+        {
+            Console.WriteLine("Enter the Kilometer Value");
+            double km = double.Parse(Console.ReadLine());
+            double m = km * 1000;
+            Console.WriteLine(m.ToString() + "m");
+        }
+    }
+}

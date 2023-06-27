@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+/* Create 4 methods and calculate addition subtraction divition and multiplication*/
+
+namespace Q3_13._06
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int choice;
+            Console.WriteLine("Enter 1 for Addition");
+            Console.WriteLine("Enter 2 for Subtraction");
+            Console.WriteLine("Enter 3 for Multiplication");
+            Console.WriteLine("Enter 1 for Division");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            Console.WriteLine("Enter Your Choice: ");
+            choice=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Number 1");
+            int no1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Number 2");
+            int no2 = Convert.ToInt32(Console.ReadLine());
+            ConvertValues obj = new ConvertValues();
+
+            if (choice == 1)
+            {
+                
+                Console.WriteLine(obj.Addition(no1,no2));
+            }
+            if (choice == 2)
+            {
+
+                Console.WriteLine(obj.Subtraction(no1, no2));
+            }
+            if (choice == 3)
+            {
+
+                Console.WriteLine(obj.Multiplication(no1, no2));
+            }
+            if (choice == 4)
+            {
+
+                Console.WriteLine(obj.Division(no1, no2));
+            }
+            Console.ReadLine();
+            
+        }
+    }
+}
