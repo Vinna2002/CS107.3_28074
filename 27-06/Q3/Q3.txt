@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Q3 //accending 
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] name = { 1, 10, 3, 4, 5, 6, 7, 8, };
+            for(int i=0; i<name.Length; i++)
+            {
+                for(int j=0;j<name.Length-1; j++)
+                {
+                    if (name[j] > name[j+1])
+                    {
+                        int l = name[j];
+                        name[j] = name[j+1];
+                        name[j + 1] = l;
+
+                        
+                    }
+                }
+            }
+            for(int i =0; i<name.Length;i++)
+            {
+                Console.WriteLine(name[i]+"");
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
