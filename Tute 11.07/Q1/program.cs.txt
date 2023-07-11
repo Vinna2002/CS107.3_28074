@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Encap
+{
+    internal class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            Employee empobj = new Employee();
+            Console.WriteLine("Enter the ID of the User");
+            empobj.setID(Convert.ToInt32(Console.ReadLine()));
+            Console.WriteLine("Enter the name of the User");
+            empobj.setName(Console.ReadLine());
+            Console.WriteLine("Enter the Designation of the User");
+            empobj.setDes(Console.ReadLine());
+
+            Console.WriteLine("Hello  " + empobj.getName() + " Your Employee ID is " + empobj.getID() + " and You are a " + empobj.getDes());
+            Console.ReadLine();
+
+
+        }
+            
+
+    }
+}
