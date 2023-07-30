@@ -1,0 +1,3 @@
+C:\Users\Hasindi Navinma\OneDrive\Documents\Desktop\C#_lab\Lab_10\Lab_10\obj\Debug\Lab_10.csproj.AssemblyReference.cache
+C:\Users\Hasindi Navinma\OneDrive\Documents\Desktop\C#_lab\Lab_10\Lab_10\obj\Debug\Lab_10.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hasindi Navinma\OneDrive\Documents\Desktop\C#_lab\Lab_10\Lab_10\obj\Debug\Lab_10.csproj.CoreCompileInputs.cache
